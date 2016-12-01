@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/demo.css';
 
 var Demo = React.createClass({
   render() {

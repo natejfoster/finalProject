@@ -6,6 +6,7 @@ import HomePage from './homepage';
 import About from './about'
 import Demo from './demo'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import './css/index.css';
 
 ReactDOM.render(
     <MuiThemeProvider>

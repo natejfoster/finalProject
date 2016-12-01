@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 import { Link } from 'react-router';
 import {Navbar, NavItem} from 'react-materialize';
 import '../node_modules/font-awesome/css/font-awesome.css'
