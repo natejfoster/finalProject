@@ -1,1 +1,6 @@
-
+p {
+  margin-bottom: 10px;
+  min-height: 75px;
+  overflow: hidden;
+  background-color: transparent !important;
+}

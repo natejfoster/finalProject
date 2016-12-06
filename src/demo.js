@@ -21,13 +21,27 @@ var Demo = React.createClass({
 	},
 
  	render() {
-		return (
-			<div className='demo'>
-				{
-					this.state.data1.map(function(d, i) {
-						return <p key={'p' + i}>{d.text}</p>
-					})
-				}
+    var min = Math.min(this.state.data1.length, this.state.data2.length);
+    return (
+			<div className='demo row container'>
+        <div className='col s12 m6' id='data1'>
+          {
+            this.state.data1.map(function(d, i) {
+              if (i < min) {
+                return <p key={'p1' + i} className='z-depth-1'>{d.text}</p>
+              }
+            })
+          }
+        </div>
+        <div className='col s12 m6' id='data2'>
+          {
+            this.state.data2.map(function(d, i) {
+              if (i < min) {
+                return <p key={'p2' + i} className='z-depth-1'>{d.text}</p>
+              }
+            })
+          }
+        </div>
 			</div>
 		)
 	}
