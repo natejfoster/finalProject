@@ -18,8 +18,8 @@ var App = React.createClass({
         <div>
           <Navbar brand='logo' right>
             <Link className="link" activeClassName='active' to="/"><i className="fa fa-home"></i></Link>
-            <NavItem><Link className="link" activeClassName='active' to="/about">About</Link></NavItem>
             <NavItem><Link className="link" activeClassName='active' to="/demo">Demo</Link></NavItem>
+            <NavItem><Link className="link" activeClassName='active' to="/about">About</Link></NavItem>
           </Navbar>
         </div>
         {this.props.children}

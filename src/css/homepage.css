@@ -1,0 +1,9 @@
+.container {
+  margin-top: 15px;
+}
+
+#placeholder {
+  height: 400px;
+  border: 1px solid black;
+  margin-top: 15px;
+}
