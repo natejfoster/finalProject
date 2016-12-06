@@ -7,36 +7,28 @@ import $ from 'jquery';
 var About = React.createClass({
 	
 	getInitialState(){
-		return{samText:'', govindText:'', nathanText:'', madisonText:''}
+		return{samText:'', govindText:'', nathanText:'', madisonText:'', projectDescription: ''}
 	},
 
 	componentDidMount(){
 		$.get('./text/sam.txt').then(function(data) {
-			console.log(data)
-			var samText = data;
-			console.log(samText);
-			this.setState({samText:samText})
+			this.setState({samText:data})
 		}.bind(this));
 
 		$.get('./text/govind.txt').then(function(data) {
-			console.log(data)
-			var govindText = data;
-			console.log(govindText);
-			this.setState({govindText:govindText})
+			this.setState({govindText:data})
 		}.bind(this));
 
 		$.get('./text/nathan.txt').then(function(data) {
-			console.log(data)
-			var nathanText = data;
-			console.log(nathanText);
-			this.setState({nathanText:nathanText})
+			this.setState({nathanText:data})
 		}.bind(this));
 
 		$.get('./text/madison.txt').then(function(data) {
-			console.log(data)
-			var madisonText = data;
-			console.log(madisonText);
-			this.setState({madisonText:madisonText})
+			this.setState({madisonText:data})
+		}.bind(this));
+
+		$.get('./text/about-Project.txt').then(function(data) {
+			this.setState({projectDescription:data})
 		}.bind(this));
 	},
 
@@ -47,14 +39,7 @@ var About = React.createClass({
 		     	<div className='theProject' className='container'>
 		      		<h2>The Project</h2>
 		      		<div id="projectDescription"> 
-		      		     This project was our final project for our INFO 343 Client-Side 
-		      		Web Development class at the University of Washington. We were inspired by 
-		      		the recent election to create a project that broke down the social media 
-		      		‘echo chamber.’ We hope that our project will enable users to break out of
-		      		real and virtual communities that affirm particular narratives. We hope that 
-		      		exposure to a wide range of ideas will help users to have more informed conversations 
-		      		about these issues and will give users the information they need to more 
-		      		critically evaluate their own opinions.
+		      		     {this.state.projectDescription}
 		      		</div>
 		      	</div>
 		     	<div id='theTeam' className='container'>
