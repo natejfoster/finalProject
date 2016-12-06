@@ -5,13 +5,18 @@ import $ from 'jquery';
 var baseSearchURL = 'https://twitter.com/search';
 var Demo = React.createClass({
 	getInitialState() {
-		return {data:[]}
+		return {data1:[], data2:[]}
 	},
 
 	componentDidMount() {
-		$.get("https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23hillaryclinton&result_type=popular&lang=en&count=200", function(data) {
-			this.setState({data:data.statuses})
-			console.log(data);
+		$.get("https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23hillaryclinton&result_type=popular&lang=en&count=200", function(data1) {
+			this.setState({data1:data1.statuses});
+			console.log(data1);
+		}.bind(this));
+
+		$.get("https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23donaldtrump&result_type=popular&lang=en&count=200", function(data2) {
+			this.setState({data2:data2.statuses});
+			console.log(data2);
 		}.bind(this));
 	},
 
@@ -19,7 +24,7 @@ var Demo = React.createClass({
 		return (
 			<div className='demo'>
 				{
-					this.state.data.map(function(d, i) {
+					this.state.data1.map(function(d, i) {
 						return <p key={'p' + i}>{d.text}</p>
 					})
 				}
