@@ -16,7 +16,7 @@ var App = React.createClass({
     return (
       <div className="app">
         <div>
-          <Navbar brand='logo' right>
+          <Navbar brand='' right>
             <Link className="link" activeClassName='active' to="/"><i className="fa fa-home"></i></Link>
             <NavItem><Link className="link" activeClassName='active' to="/demo">Demo</Link></NavItem>
             <NavItem><Link className="link" activeClassName='active' to="/about">About</Link></NavItem>

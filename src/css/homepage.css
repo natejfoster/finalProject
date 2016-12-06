@@ -1,3 +1,4 @@
+<<<<<<< 35070b2b071bc6a562657668b3c7e65481637a7f
 .container {
   margin-top: 15px;
 }
@@ -7,3 +8,21 @@
   border: 1px solid black;
   margin-top: 15px;
 }
+=======
+.homepage {
+	height: 1000px; /*Arbitrary. Please change*/
+	color: white;
+	background-image: url(../../public/imgs/gradient.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+p {
+	background-color: transparent !important;
+}
+
+h1 {
+	margin-top: 0px;
+	padding-top: 50px;
+}
+>>>>>>> updated css
