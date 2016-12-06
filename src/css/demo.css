@@ -2,5 +2,13 @@ p {
   margin-bottom: 10px;
   min-height: 75px;
   overflow: hidden;
-  background-color: transparent !important;
+  background-color: transparent;
+}
+
+ #data1 p {
+  background: #42a5f5;
+}
+
+ #data2 p {
+  background: #ef5350;
 }
