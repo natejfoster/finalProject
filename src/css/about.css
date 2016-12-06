@@ -1,0 +1,57 @@
+
+
+h1 {
+	font-size: 250%;
+	position: relative;
+	text-align: center;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 150%;
+}
+
+p {
+	margin-top: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: pink;
+}
+
+div {
+	text-align: center;
+}
+
+.card {
+	background-color: #F2F3F4;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	width:300px;
+	height:300px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#projectDescription {
+	text-align: left;
+}
+
+img {
+	width: 100px;
+	height: auto;
+	position: relative;
+	border-radius: 10px;
+}
+
+#bio {
+	width:280px;
+	height: 150px;
+}
+
+
