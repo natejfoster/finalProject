@@ -25,7 +25,7 @@ div {
 }
 
 .card {
-	background-color: white;
+	background-color: transparent;
 	display: inline-block;
 	margin: 10px;
 	padding: 10px;
@@ -50,4 +50,8 @@ img {
 #bio {
 	width:280px;
 	height: 150px;
+}
+
+.about {
+	color:white;
 }

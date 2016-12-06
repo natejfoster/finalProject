@@ -62,7 +62,7 @@ var About = React.createClass({
 			        	
 			    	</div>
 			    	<div className="card">
-			    		<img src='./imgs/madison.jpeg' alt="Madison"/>
+			    		<img src='./imgs/madison.jpg' alt="Madison"/>
 			        	<h3>Madison</h3>
 			        	<div id='bio'>{this.state.madisonText}</div>
 			    	</div>
