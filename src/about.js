@@ -42,26 +42,26 @@ var About = React.createClass({
 		      		     {this.state.projectDescription}
 		      		</div>
 		      	</div>
-		     	<div id='theTeam' className='container'>
-		 	        <h2>The Team</h2>
-		    	    <div className="card">
+		      	<h2>The Team</h2>
+		     	<div id='theTeam' className='flex-container'>
+		    	    <div className="flex-item">
 		        		<img src='./imgs/sam.jpg' alt="Sam"/>
 			        	<h3>Sam</h3>
 			        	<div id='bio'> {this.state.samText}</div>
 			    	</div>
-			    	<div className="card">
+			    	<div className="flex-item">
 			    		<img src='./imgs/govind.jpeg' alt="Govind"/>
 			        	<h3>Govind</h3>
 			        	<div id='bio'> {this.state.govindText}</div>
 			        	
 			    	</div>
-			    	<div className="card">
+			    	<div className="flex-item">
 			   			<img src='./imgs/nathan.jpeg' alt="Nathan"/>
 			        	<h3>Nathan</h3>
 			        	<div id='bio'>{this.state.nathanText}</div>
 			        	
 			    	</div>
-			    	<div className="card">
+			    	<div className="flex-item">
 			    		<img src='./imgs/madison.jpg' alt="Madison"/>
 			        	<h3>Madison</h3>
 			        	<div id='bio'>{this.state.madisonText}</div>

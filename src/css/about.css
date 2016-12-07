@@ -6,38 +6,21 @@ h1 {
 
 h2 {
 	font-size: 150%;
+	position: relative;
+	text-align: center;
 }
 
 h3 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 150%;
+	position: relative;
+	text-align: center;
 }
 
 p {
-	margin-top: 0px;
 	margin: 0px;
 	padding: 0px;
-}
-
-div {
-	text-align: center;
-}
-
-.card {
-	background-color: transparent;
-	display: inline-block;
-	margin: 10px;
-	padding: 10px;
-	width:300px;
-	height:300px;
-	text-align: center;
-	border-radius: 3px;
-	box-shadow: 0 0px 0px 0;
-}
-
-#projectDescription {
-	text-align: left;
 }
 
 img {
@@ -47,11 +30,33 @@ img {
 	border-radius: 10px;
 }
 
-#bio {
-	width:280px;
-	height: 150px;
-}
-
 .about {
 	color:white;
 }
+
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+    justify-content: center;
+}
+
+.flex-item {
+	flex-basis:100%;
+	background-color: transparent;
+	margin: 10px;
+	padding-right: 25px;
+	padding-left:25px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+@media screen and (min-width:660px) {
+  .flex-item {
+    flex-basis:33%;  
+  }
+}
+
+
+
