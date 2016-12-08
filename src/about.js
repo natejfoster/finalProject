@@ -50,7 +50,7 @@ var About = React.createClass({
 			        	<div id='bio'> {this.state.samText}</div>
 			    	</div>
 			    	<div className="flex-item">
-			    		<img src='./imgs/govind.jpeg' alt="Govind"/>
+			    		<img src='./imgs/govind.jpg' alt="Govind"/>
 			        	<h3>Govind</h3>
 			        	<div id='bio'> {this.state.govindText}</div>
 
