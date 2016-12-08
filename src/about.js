@@ -5,7 +5,7 @@ import $ from 'jquery';
 
 
 var About = React.createClass({
-	
+
 	getInitialState(){
 		return{samText:'', govindText:'', nathanText:'', madisonText:'', projectDescription: ''}
 	},
@@ -38,7 +38,7 @@ var About = React.createClass({
 	    		<h1 className='container'>About</h1>
 		     	<div className='theProject' className='container'>
 		      		<h2>The Project</h2>
-		      		<div id="projectDescription"> 
+		      		<div id="projectDescription">
 		      		     {this.state.projectDescription}
 		      		</div>
 		      	</div>
@@ -53,13 +53,13 @@ var About = React.createClass({
 			    		<img src='./imgs/govind.jpeg' alt="Govind"/>
 			        	<h3>Govind</h3>
 			        	<div id='bio'> {this.state.govindText}</div>
-			        	
+
 			    	</div>
 			    	<div className="flex-item">
-			   			<img src='./imgs/nathan.jpeg' alt="Nathan"/>
+			   			<img src='./imgs/nathan.jpg' alt="Nathan"/>
 			        	<h3>Nathan</h3>
 			        	<div id='bio'>{this.state.nathanText}</div>
-			        	
+
 			    	</div>
 			    	<div className="flex-item">
 			    		<img src='./imgs/madison.jpg' alt="Madison"/>
