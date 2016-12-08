@@ -47,3 +47,11 @@
 	font-size: 1.2em;
 	padding: 65px 65px 65px 65px;
 }
+
+#demo {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	font-weight: bold;
+
+}
