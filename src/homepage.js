@@ -6,10 +6,6 @@ import $ from 'jquery';
 var HomePage = React.createClass({
 
 	render() {
-		$('#demo').on('click', function() {
-	 		
-	    });
-
 
 	    return (
 		    <div className='homepage'>
@@ -18,7 +14,6 @@ var HomePage = React.createClass({
 					<h2>Break Out of the Echo Chamber. Here at noEcho we 
 					want to help you explore new narratives by finding diverse 
 					worldviews held on Twitter.</h2>
-					<button type="button" id="demo">Try it!</button>
 		    	</div>
 		    	<div id='quote-section'>
 		    		<p className='center-align'> "The danger is that...
