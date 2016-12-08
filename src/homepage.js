@@ -20,7 +20,6 @@ var HomePage = React.createClass({
 								<Link className="link" to="/escape">Escape the chamber</Link>
 							</button>
 						</div>
-						<h3>We implemented the Twitter Search API so you can see the opposing views regarding any hashtag.</h3>
 		    	</div>
 		    	<div id='quote-section'>
 		    		<p className='center-align'> "The danger is that
