@@ -6,8 +6,36 @@
 
 #paragraph-section {
 	color: white;
+
+	padding-top: 0px;
 }
 
-.purpose p {
-	text-indent: 50px;
+h1 {
+	font-size: 200%;
+	position: relative;
+	text-align: left;
+	line-height: 135%;
+	text-indent: 0px;
+
 }
+
+#text {
+	text-indent: 50px;
+	line-height: 135%;
+	font-weight: lighter;
+}
+
+@media screen and (min-width:850px) {
+  #paragraph-section {
+    padding:100px;
+   }
+}
+
+
+@media screen and (min-width:1000px) {
+  #paragraph-section {
+    padding:200px;
+	padding-top: 10px;
+   }
+}
+
