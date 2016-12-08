@@ -31,10 +31,11 @@ var Escape = React.createClass({
   },
 
   getSearchData() {
-    $.get('https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23' + this.state.search + '%20%3A%29&lang=en&count=200', function(data1) {
+    $.get('https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23' + this.state.search + '%20%3A%29%20exclude%3Aretweets%20exclude%3Areplies&lang=en&count=200', function(data1) {
       this.setState({data1:data1.statuses});
+      console.log(this.state.data1);
     }.bind(this));
-    $.get('https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23' + this.state.search + '%20%3A%28&lang=en&count=200', function(data2) {
+    $.get('https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23' + this.state.search + '%20%3A%28%20exclude%3Aretweets%20exclude%3Areplies&lang=en&count=200', function(data2) {
      this.setState({data2:data2.statuses});
     }.bind(this));
     console.log(this.state.data1);
@@ -49,11 +50,14 @@ var Escape = React.createClass({
         <div className='demo row container'>
           {
             current.map(function(d, i) {
-              return (
-                <div className='col s12 m6' id={d.id}>
-                  <p key={'p1' + i} className="z-depth-1 tweet">{d.text}</p>
-                </div>
-              )
+                if (d.in_reply_to_user_id) {
+                  console.log('hello');
+                }
+                return (
+                  <div className='col s12 m6' id={d.id}>
+                    <p key={'p1' + i} className="z-depth-1 tweet">{d.text}</p>
+                  </div>
+                )
             })
           }
         </div>
