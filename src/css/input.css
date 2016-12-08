@@ -2,6 +2,7 @@
 button {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 15px;
 }
 
 .userInput {
@@ -9,4 +10,7 @@ button {
   margin-right: auto;
   width: 250px;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
 }

@@ -1,14 +1,31 @@
-p {
+.demo {
+  background: url(../../public/imgs/gradient.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.tweet {
   margin-bottom: 10px;
-  min-height: 75px;
+  height: 125px;
   overflow: hidden;
   background-color: transparent;
+  padding: 15px;
+
 }
 
  #data1 p {
-  background: #42a5f5;
+  background: #ebfaeb;
 }
 
  #data2 p {
-  background: #ef5350;
+  background: #ffe6e6;
+}
+
+.col {
+  margin-top: 0;
+}
+
+.container {
+  padding: 20px;
 }

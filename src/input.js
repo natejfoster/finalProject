@@ -6,8 +6,8 @@ var UserInput = React.createClass({
   render() {
     return (
       <div className='userInput'>
-        <Input label='Subject to compare'></Input>
-        <button className='btn waves-effect waves-light'>Compare</button>
+        <Input label='Subject to compare' id='input'></Input>
+        <button onClick={this.props.clickEvent} className='btn waves-effect waves-light'>Compare</button>
       </div>
     )
   }

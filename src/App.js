@@ -12,16 +12,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
 var App = React.createClass({
-
-
-
-
-       
-
-
-
-
-
   render() {
     return (
       <div className="app">

@@ -23,6 +23,10 @@
 	line-height: 110%;
 }
 
+.homepage a {
+	color: white;
+}
+
 #header-section {
 	height: 350px;
 	background-image: url(../../public/imgs/nasa.jpg);
@@ -48,6 +52,7 @@
 	padding: 65px 65px 65px 65px;
 }
 
+
 #demo {
 	color: black;
 	background-color: white;
@@ -58,4 +63,9 @@
 
 p {
     text-indent: 50px;
+}
+
+#try-link {
+	width: 150px;
+	margin: auto;
 }
