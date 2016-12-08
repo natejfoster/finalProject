@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/demo.css';
+import './css/escape.css';
 import $ from 'jquery';
 import UserInput from './input';
 
@@ -44,7 +44,7 @@ var Escape = React.createClass({
 
     var current = this.formatData();
     return (
-      <div className='demo'>
+      <div className='escape'>
         <UserInput clickEvent={this.setSearch}></UserInput>
         <div className='demo row container'>
           {

@@ -1,4 +1,4 @@
-.demo {
+.escape {
   background: url(../../public/imgs/gradient.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +30,6 @@
   padding: 20px;
 }
 
-.demo p {
+.escape p {
   text-indent: 0;
 }
