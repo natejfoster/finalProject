@@ -37,12 +37,12 @@ var About = React.createClass({
 	    	<div className='about'>
 	    		<h1 className='container'>About</h1>
 		     	<div className='theProject' className='container'>
-		      		<h2>The Project</h2>
+		      		<h2>THE PROJECT</h2>
 		      		<div id="projectDescription">
 		      		     {this.state.projectDescription}
 		      		</div>
 		      	</div>
-		      	<h2>The Team</h2>
+		      	<h2>THE TEAM</h2>
 		     	<div id='theTeam' className='flex-container'>
 		    	    <div className="flex-item">
 		        		<img src='./imgs/sam.jpg' alt="Sam"/>

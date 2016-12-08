@@ -1,7 +1,13 @@
+.about {
+	background: url(../../public/imgs/gradient.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 h1 {
-	font-size: 250%;
-	position: relative;
 	text-align: center;
+	font-size: 6em;
+	padding-top: 50px !important;
 }
 
 h2 {
@@ -23,11 +29,15 @@ p {
 	padding: 0px;
 }
 
+#projectDescription {
+	font-size: 125%;
+}
+
 img {
-	width: 100px;
+	width: 175px;
 	height: auto;
 	position: relative;
-	border-radius: 10px;
+	border-radius: 50%;
 }
 
 .about {
@@ -42,12 +52,9 @@ img {
 
 .flex-item {
 	flex-basis:100%;
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, .2);
 	margin: 10px;
-	padding-right: 25px;
-	padding-left:25px;
-	padding-top:10px;
-	padding-bottom: 10px;
+	padding: 30px;
 	text-align: center;
 	border-radius: 3px;
 }
