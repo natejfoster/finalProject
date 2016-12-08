@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/demo.css';
 import $ from 'jquery';
+import Input from './input';
 
 var baseSearchURL = 'https://twitter.com/search';
 var Demo = React.createClass({
@@ -33,17 +34,21 @@ var Demo = React.createClass({
     var current = this.formatData();
     console.log(current);
     return (
-			<div className='demo row container'>
-        {
-          current.map(function(d, i) {
-            return (
-              <div className='col s12 m6' id={d.id}>
-                <p key={'p1' + i} className="z-depth-1">{d.text}</p>
-              </div>
-            )
-          })
-        }
-			</div>
+      <div>
+        <Input></Input>
+        <div className='demo row container'>
+          {
+            current.map(function(d, i) {
+              return (
+                <div className='col s12 m6' id={d.id}>
+                  <p key={'p1' + i} className="z-depth-1">{d.text}</p>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+
 		)
 	}
 });
