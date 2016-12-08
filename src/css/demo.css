@@ -29,3 +29,7 @@
 .container {
   padding: 20px;
 }
+
+.demo p {
+  text-indent: 0;
+}

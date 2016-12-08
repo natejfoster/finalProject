@@ -1,0 +1,9 @@
+.purpose {
+	background: url(../../public/imgs/gradient.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#paragraph-section {
+	color: white;
+}

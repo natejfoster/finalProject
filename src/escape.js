@@ -4,7 +4,7 @@ import $ from 'jquery';
 import UserInput from './input';
 
 var baseSearchURL = 'https://twitter.com/search';
-var Demo = React.createClass({
+var Escape = React.createClass({
 	getInitialState() {
 		return {data1:[], data2:[], search:'donaldtrump'}
 	},
@@ -63,4 +63,4 @@ var Demo = React.createClass({
 	}
 });
 
-export default Demo;
+export default Escape;

@@ -61,9 +61,6 @@ img {
 
 @media screen and (min-width:660px) {
   .flex-item {
-    flex-basis:33%;  
+    flex-basis:33%;
   }
 }
-
-
-

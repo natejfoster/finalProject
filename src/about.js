@@ -35,7 +35,7 @@ var About = React.createClass({
   	render() {
 	    return (
 	    	<div className='about'>
-	    		<h1 className='container'>About</h1>
+	    		<h1 className='container'>About Us</h1>
 		     	<div className='theProject' className='container'>
 		      		<h2>THE PROJECT</h2>
 		      		<div id="projectDescription">
