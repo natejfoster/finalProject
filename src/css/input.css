@@ -1,0 +1,12 @@
+
+button {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.userInput {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  text-align: center;
+}

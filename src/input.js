@@ -1,14 +1,16 @@
 import React from 'react';
+import {Row, Input} from 'react-materialize';
+import './css/input.css';
 
-var Input = React.createClass({
+var UserInput = React.createClass({
   render() {
     return (
-      <div id='userInput'>
-        <input placeholder="subject to compare"/>
+      <div className='userInput'>
+        <Input label='Subject to compare'></Input>
         <button className='btn waves-effect waves-light'>Compare</button>
       </div>
     )
   }
 })
 
-export default Input;
+export default UserInput;
