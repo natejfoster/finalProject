@@ -18,6 +18,11 @@
 	font-weight: bold;
 }
 
+
+.homepage h2 {
+	line-height: 110%;
+}
+
 #header-section {
 	height: 350px;
 	background-image: url(../../public/imgs/nasa.jpg);
