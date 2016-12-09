@@ -47,6 +47,10 @@
 	margin: auto;
 }
 
+.btn {
+	font-size: 13.5px !important;
+}
+
 #instructions {
 	padding: 0px 65px 50px 65px;
 }
