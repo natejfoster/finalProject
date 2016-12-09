@@ -27,12 +27,12 @@ var HomePage = React.createClass({
 		    		you end up not seeing what people who think differently see
 		    		and in fact not even knowing that it exists."
 		    		<br/>
-		    		<a id='npr-link' href="http://www.npr.org/sections/alltechconsidered/2016/07/24/486941582/the-reason-your-feed-became-an-echo-chamber-and-what-to-do-about-it ">- NPR</a>
+		    		<a id='npr-link' target="_blank" href="http://www.npr.org/sections/alltechconsidered/2016/07/24/486941582/the-reason-your-feed-became-an-echo-chamber-and-what-to-do-about-it ">- NPR</a>
 		    		</p>
 		    	</div>
 				<hr/>
 		    	<div id='instructions'>
-		    		<h2>USAGE</h2>
+		    		<h2>INSTRUCTIONS</h2>
 		    		<p className='instructionsParagraph'>This application implements the Twitter Search API. Search for a hashtag without the pound sign and without spaces in between words. The application will then display tweets representing opposing viewpoints. Tweets on the left side represent positive opinions while tweets on the right represent negative opinions. The default search is #donaldtrump. </p>
 		    		<br />
 		    		<p className='instructionsParagraph'><em>Warning: Content is not censored.</em></p>

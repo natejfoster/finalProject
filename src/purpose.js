@@ -17,8 +17,7 @@ var Purpose = React.createClass({
             us toward articles that reflect our own ideological preferences, and search 
             results usually echo what we already know and like."
 
-            <a href="http://www.npr.org/sections/alltechconsidered/2016/07/24/486941582/the-reason-your-feed-became-an-echo-chamber-and-what-to-do-about-it ">
-                (NPR) </a>
+            <a target="_blank" href="http://www.npr.org/sections/alltechconsidered/2016/07/24/486941582/the-reason-your-feed-became-an-echo-chamber-and-what-to-do-about-it "> (NPR) </a>
 
             This creates groups of people who form echo chambers. Echo chambers are 
             communities that affirm one particular worldview while rejecting other worldviews.     
@@ -35,8 +34,7 @@ var Purpose = React.createClass({
             positions and even make those positions more extreme. Witness the age of a bitterly
             divided America."
 
-            <a href="http://bigthink.com/ideafeed/how-social-media-have-created-echo-chambers-for-ideas">
-                (Big Think) </a>
+            <a target="_blank" href="http://bigthink.com/ideafeed/how-social-media-have-created-echo-chambers-for-ideas"> (Big Think) </a>
 
             The continual affirmation of one worldview has a sigificant impact on 
             issues like politics.
