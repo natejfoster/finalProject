@@ -65,3 +65,22 @@
 	width: 230px;
 	margin: auto;
 }
+
+#instructions {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+
+#instructions h2 {
+	font-size: 150%;
+}
+
+em {
+	font-size: 100%;
+}
+
+.instructionsParagraph {
+	text-align: center;
+	font-size: 125%;
+}
