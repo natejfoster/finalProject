@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/App.css';
 import { Link } from 'react-router';
 import $ from 'jquery';
