@@ -47,7 +47,7 @@ var Escape = React.createClass({
     return (
       <div className='escape'>
         <UserInput clickEvent={this.setSearch}></UserInput>
-        <div className='demo row container'>
+        <div className='escape row container'>
           {
             current.map(function(d, i) {
                 if (d.in_reply_to_user_id) {
