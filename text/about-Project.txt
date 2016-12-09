@@ -1,0 +1,2 @@
+This website was our final project for our INFO 343 Client-Side Web Development class at the University of Washington. We were inspired by the recent election to create a project that broke down the social media "echo chamber".
+Our hope is that this project will enable users to break out of real and virtual communities that affirm particular narratives. We hope that exposure to a wide range of ideas will help users to have more informed conversations about these issues and will give users the information they need to critically evaluate their own opinions.
