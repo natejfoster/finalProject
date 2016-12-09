@@ -8,9 +8,9 @@ var Purpose = React.createClass({
         <p className='flow-text'>
           <h1>How The Echo Chamber is Created</h1>
           <p id='text'>
-            While the internet allows us communicate with nearly whoever we want, it
+            While the internet allows us to communicate with nearly whomever we want, it
             tends to divide people into groups that share similar worldviews.
-            We tend to be attracted to people we relate to and social media
+            We tend to be attracted to things we relate to or are familiar with. Therefore, social media
             filters the information we see to fit our interests and worldviews.
       
             NPR argues that "algorithms, like the kind used by Facebook... often steer 
@@ -19,8 +19,8 @@ var Purpose = React.createClass({
 
             <a target="_blank" href="http://www.npr.org/sections/alltechconsidered/2016/07/24/486941582/the-reason-your-feed-became-an-echo-chamber-and-what-to-do-about-it "> (NPR) </a>
 
-            This creates groups of people who form echo chambers. Echo chambers are 
-            communities that affirm one particular worldview while rejecting other worldviews.     
+            This causes groups of people to form "echo chambers", or 
+            communities that affirm one particular worldview while rejecting others.     
           </p>
 
         </p>
@@ -36,14 +36,14 @@ var Purpose = React.createClass({
 
             <a target="_blank" href="http://bigthink.com/ideafeed/how-social-media-have-created-echo-chambers-for-ideas"> (Big Think) </a>
 
-            The continual affirmation of one worldview has a sigificant impact on 
-            issues like politics.
+            The continual affirmation of one worldview increases cultural divides significantly.
+            The echo chamber must be broken. 
           </p>
         </p>
         <p className='flow-text'>
           <h1>How Our Project Breaks the Echo Chamber</h1>
           <p id='text'>
-            Our website takes Tweets about a topic from Twitter and sorts them
+            Our website sources Tweets about any topic from Twitter and sorts them
             into two different opposing categories. The application will not filter information to the
             preferences of the users, but rather will give the user an accurate reflection
             of the diverse opinions held on Twitter. We hope that exposure to a wide range

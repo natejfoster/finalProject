@@ -33,7 +33,12 @@ var HomePage = React.createClass({
 				<hr/>
 		    	<div id='instructions'>
 		    		<h2>INSTRUCTIONS</h2>
-		    		<p className='instructionsParagraph'>This application implements the Twitter Search API. Search for a hashtag without the pound sign and without spaces in between words. The application will then display tweets representing opposing viewpoints. Tweets on the left side represent positive opinions while tweets on the right represent negative opinions. The default search is #donaldtrump. </p>
+		    		<p className='instructionsParagraph'> 
+		    		Enter a hashtag excluding the '#' sign and spaces. <br/>
+		    		Because this application implements the Twitter Search API, it may be prone to errors,
+		    		but it will attempt to display tweets representing opposing viewpoints.
+		    		Tweets on the left side represent positive opinions while tweets on the right represent negative ones. 
+		    		The default search is '<b>donaldtrump</b>'. </p>
 		    		<br />
 		    		<p className='instructionsParagraph'><em>Warning: Content is not censored.</em></p>
 		    	</div>
