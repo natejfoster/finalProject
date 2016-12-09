@@ -34,24 +34,12 @@
 	margin: auto;
 }
 
-#quote-section {
-	/*background-color: rgba(81,80,82, 0.8);*/
-}
-
 #quote-section p {
 	margin-bottom: 0px;
 	padding: 40px;
 	font-size: 1.8em;
 	font-family: 'Lora', serif;
 	font-weight: bold;
-}
-
-#demo {
-	color: black;
-	background-color: white;
-	border-radius: 5px;
-	font-weight: bold;
-
 }
 
 #try-link {

@@ -1,8 +1,12 @@
-# Final Project
-name to be determined
+# noEcho
 
-## project by:
-- Sam
-- Madison
-- Govind
-- Nathan
+### A project by:
+- Samuel Tompkins
+- Madison Smith
+- Govind Pillai
+- Nathan Foster
+
+
+### INFO 343c
+### University of Washington
+### December 2016
