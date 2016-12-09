@@ -8,24 +8,27 @@ var Purpose = React.createClass({
         <p className='flow-text'>
           <h1>How The Echo Chamber is Created</h1>
           <p id='text'>
-            While the internet allows us communicate with nearly whomever we want, it
-            tends to divide into smaller groups of people who share simliar worldviews.
-            These groups of people create echo chambers. Echo chambers are communities that
-            affirm their own worldview while negating(?) other worldviews. People tends to divide into these groups because the people we know
-            tend to have similar ideas as our own. But echo chambers are also created through social media.
-            NPR argues that "algorithms, like the kind used by Facebook... often steer us toward articles
-            that reflect our own ideological preferences, and search results usually echo what
-            we already know and like."
+            While the internet allows us communicate with nearly whoever we want, it
+            tends to divide people into groups that share similar worldviews.
+            We tend to be attracted to people we relate to and social media
+            filters the information we see to fit our interests and worldviews.
+      
+            NPR argues that "algorithms, like the kind used by Facebook... often steer 
+            us toward articles that reflect our own ideological preferences, and search 
+            results usually echo what we already know and like."
 
             <a href="http://www.npr.org/sections/alltechconsidered/2016/07/24/486941582/the-reason-your-feed-became-an-echo-chamber-and-what-to-do-about-it ">
                 (NPR) </a>
+
+            This creates groups of people who form echo chambers. Echo chambers are 
+            communities that affirm one particular worldview while rejecting other worldviews.     
           </p>
 
         </p>
         <p className='flow-text'>
           <h1>Why We Need to Break the Echo Chamber</h1>
           <p id='text'>
-            But these echo chambers cause many problems. If we are only exposed to ideas
+            These echo chambers cause many problems. If we are only exposed to ideas
             that we agree with then our ideas are never challenged, only confirmed.
             Orion Jones from Big Think writes that "sociologists have concluded that social
             media often entrench people's ideological
@@ -34,19 +37,20 @@ var Purpose = React.createClass({
 
             <a href="http://bigthink.com/ideafeed/how-social-media-have-created-echo-chambers-for-ideas">
                 (Big Think) </a>
+
+            The continual affirmation of one worldview has a sigificant impact on 
+            issues like politics.
           </p>
         </p>
         <p className='flow-text'>
           <h1>How Our Project Breaks the Echo Chamber</h1>
           <p id='text'>
-            Our website takes Tweets about a topic from Twitter and sort them
+            Our website takes Tweets about a topic from Twitter and sorts them
             into two different opposing categories. The application will not filter information to the
             preferences of the users, but rather will give the user an accurate reflection
             of the diverse opinions held on Twitter. We hope that exposure to a wide range
-            of ideas will help the user to have more informed conversations about these issues
-            and will give users the information they need to more critically evaluate their
-            own opinions. As a result, we hope that users will have a deeper understanding
-            of the people around them and an increased awareness of the diversity of the world.
+            of ideas will give users the information they need to more critically evaluate their
+            own worldviews. 
           </p>
         </p>
 
