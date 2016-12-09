@@ -14,3 +14,20 @@ button {
   padding-bottom: 20px;
   color: white;
 }
+
+input {
+  border-bottom-color: #4caf50 !important;
+}
+
+.input-field label {
+  color: #4caf50 !important;
+}
+
+label.active {
+  color: #4caf50 !important;
+}
+
+input[type=text]:focus {
+  border-bottom: 1px solid #4caf50 !important;
+  box-shadow: 0 1px 0 0 #4caf50 !important;
+}

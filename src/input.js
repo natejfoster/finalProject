@@ -7,7 +7,7 @@ var UserInput = React.createClass({
     return (
       <div className='userInput'>
         <Input label='Subject to compare' id='input'></Input>
-        <button onClick={this.props.clickEvent} className='btn waves-effect waves-light'>Compare</button>
+        <button onClick={this.props.clickEvent} className='btn waves-effect waves-light green'>Compare</button>
       </div>
     )
   }
