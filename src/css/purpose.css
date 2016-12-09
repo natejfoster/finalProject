@@ -25,6 +25,10 @@
 	font-weight: lighter;
 }
 
+#bibliography-section {
+	word-wrap: break-word;
+}
+
 a {
 	color: #4caf50;
 }
@@ -40,11 +44,9 @@ a {
    }
 }
 
-
 @media screen and (min-width:1000px) {
   #paragraph-section {
     padding-left:200px;
     padding-right:200px;
    }
 }
-
