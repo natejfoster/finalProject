@@ -43,27 +43,36 @@ var Escape = React.createClass({
 
  	render() {
     var current = this.formatData();
-    return (
-      <div className='escape'>
-        <UserInput clickEvent={this.setSearch}></UserInput>
-        <div className='escape row container'>
-          {
-            current.map(function(d, i) {
-              return (
-                <div className='col s12 m6 tweetContainer' key={'div' + d.tweet} id={d.id}>
-                  <a href={d.src}>
-                  <img key={'img' + i} src={d.image} alt={d.tweet + ' user image'} className='userImage' />
-                  <h4 key={'h4' + i} className='twitterHandle'>@{d.name}</h4>
-                  </a>
-                  <p key={'p1' + i} className="tweet">{d.text} <br /><em><span className='timeStamp'>{d.time}</span></em></p>
-                </div>
-              )
-            })
-          }
+    if (current.length != 0) {
+      return (
+        <div className='escape'>
+          <UserInput clickEvent={this.setSearch}></UserInput>
+          <div className='escape row container'>
+            {
+              current.map(function(d, i) {
+                return (
+                  <div className='col s12 m6 tweetContainer' key={'div' + d.tweet} id={d.id}>
+                    <a href={d.src}>
+                    <img key={'img' + i} src={d.image} alt={d.tweet + ' user image'} className='userImage' />
+                    <h4 key={'h4' + i} className='twitterHandle'>@{d.name}</h4>
+                    </a>
+                    <p key={'p1' + i} className="tweet">{d.text} <br /><em><span className='timeStamp'>{d.time}</span></em></p>
+                  </div>
+                )
+              })
+            }
+          </div>
         </div>
-      </div>
+  		)
+    } else {
+      return(
+        <div className='escape noResults'>
+          <UserInput clickEvent={this.setSearch}></UserInput>
+          <p>Your search did not return any results.</p>
+        </div>
+      )
+    }
 
-		)
 	}
 });
 

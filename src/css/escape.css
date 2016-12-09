@@ -37,6 +37,19 @@
   text-indent: 0;
 }
 
+.noResults p {
+  color: white;
+  text-align: center;
+}
+
+.noResults {
+  background: url(../../public/imgs/gradient.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  height: 100vh;
+}
+
 .userImage {
   width: 50px;
   height: 50px;

@@ -15,7 +15,7 @@ a.back-to-top {
   z-index: 999;
   right: 20px;
   bottom: 20px;
-  background: transparent url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_up_48px-128.png") no-repeat center 60%;
+  background: transparent url("../../public/imgs/upArrow.png") no-repeat center 60%;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
