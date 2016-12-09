@@ -17,10 +17,11 @@ var Escape = React.createClass({
     var formatted = [];
     var min = Math.min(this.state.data1.length, this.state.data2.length);
     for (var i = 0; i < min; i++) {
-      formatted.push({text: this.state.data1[i].text, id:'data1', tweet: this.state.data1[i].id.toString()});
-      formatted.push({text: this.state.data2[i].text, id:'data2', tweet: this.state.data2[i].id.toString()});
+      var name1 = this.state.data1[i].user.screen_name;
+      var name2 = this.state.data2[i].user.screen_name;
+      formatted.push({text: this.state.data1[i].text, id:'data1', tweet: this.state.data1[i].id.toString(), time: this.state.data1[i].created_at, image: this.state.data1[i].user.profile_image_url, name: name1, src: 'https://twitter.com/' + name1});
+      formatted.push({text: this.state.data2[i].text, id:'data2', tweet: this.state.data2[i].id.toString(), time: this.state.data2[i].created_at, image: this.state.data2[i].user.profile_image_url, name: name2, src: 'https://twitter.com/' + name2});
     }
-    console.log(formatted);
     return formatted;
   },
 
@@ -34,7 +35,6 @@ var Escape = React.createClass({
   getSearchData() {
     $.get('https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23' + this.state.search + '%20%3A%29%20exclude%3Aretweets%20exclude%3Areplies&lang=en&count=200', function(data1) {
       this.setState({data1:data1.statuses});
-      console.log(this.state.data1);
     }.bind(this));
     $.get('https://faculty.washington.edu/joelross/proxy/twitter/search/?q=%23' + this.state.search + '%20%3A%28%20exclude%3Aretweets%20exclude%3Areplies&lang=en&count=200', function(data2) {
      this.setState({data2:data2.statuses});
@@ -50,8 +50,12 @@ var Escape = React.createClass({
           {
             current.map(function(d, i) {
               return (
-                <div className='col s12 m6' key={'div' + d.tweet} id={d.id}>
-                  <p key={'p1' + i} className="z-depth-1 tweet">{d.text}</p>
+                <div className='col s12 m6 tweetContainer' key={'div' + d.tweet} id={d.id}>
+                  <a href={d.src}>
+                  <img key={'img' + i} src={d.image} alt={d.tweet + ' user image'} className='userImage' />
+                  <h4 key={'h4' + i} className='twitterHandle'>@{d.name}</h4>
+                  </a>
+                  <p key={'p1' + i} className="tweet">{d.text} <br /><em><span className='timeStamp'>{d.time}</span></em></p>
                 </div>
               )
             })
